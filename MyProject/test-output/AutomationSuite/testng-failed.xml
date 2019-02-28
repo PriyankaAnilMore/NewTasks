@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationSuite]">
+  <test thread-count="5" name="OfflineWebsite(failed)">
+    <classes>
+      <class name="project.Exp1">
+        <methods>
+          <include name="Launch_Browser"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="TestCase15"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- project.Exp1 -->
+    </classes>
+  </test> <!-- OfflineWebsite(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->

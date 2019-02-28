@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="18" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11703" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11703" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:19Z">
+      <class name="project.ExtentReportClass">
+        <test-method status="PASS" signature="Launch_Browser()[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="Launch_Browser" is-config="true" duration-ms="5597" started-at="2019-02-27T16:35:02Z" finished-at="2019-02-27T16:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="startReport" is-config="true" duration-ms="140" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="failTest()[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="failTest" duration-ms="27" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="4" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=failTest status=SUCCESS method=ExtentReportClass.failTest()[pri:0, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="passTest()[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="passTest" duration-ms="3" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="2" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passTest status=SUCCESS method=ExtentReportClass.passTest()[pri:0, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="skipTest" duration-ms="7" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:08Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping - This is not ready for testing ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
+at project.ExtentReportClass.skipTest(ExtentReportClass.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=skipTest status=SKIP method=ExtentReportClass.skipTest()[pri:0, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase1()[pri:1, instance:project.ExtentReportClass@4d50efb8]" name="TestCase1" duration-ms="846" started-at="2019-02-27T16:35:08Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase1 status=SUCCESS method=Exp1.TestCase1()[pri:1, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase2()[pri:2, instance:project.ExtentReportClass@4d50efb8]" name="TestCase2" duration-ms="114" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase2 status=SUCCESS method=Exp1.TestCase2()[pri:2, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase3()[pri:3, instance:project.ExtentReportClass@4d50efb8]" name="TestCase3" duration-ms="92" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase3 status=SUCCESS method=Exp1.TestCase3()[pri:3, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase4()[pri:4, instance:project.ExtentReportClass@4d50efb8]" name="TestCase4" duration-ms="92" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase4 status=SUCCESS method=Exp1.TestCase4()[pri:4, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase5()[pri:5, instance:project.ExtentReportClass@4d50efb8]" name="TestCase5" duration-ms="84" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase5 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase5 status=SUCCESS method=Exp1.TestCase5()[pri:5, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase6()[pri:6, instance:project.ExtentReportClass@4d50efb8]" name="TestCase6" duration-ms="92" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase6 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase6 status=SUCCESS method=Exp1.TestCase6()[pri:6, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase7()[pri:7, instance:project.ExtentReportClass@4d50efb8]" name="TestCase7" duration-ms="85" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase7 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase7 status=SUCCESS method=Exp1.TestCase7()[pri:7, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase8()[pri:8, instance:project.ExtentReportClass@4d50efb8]" name="TestCase8" duration-ms="85" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase8 status=SUCCESS method=Exp1.TestCase8()[pri:8, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase9()[pri:9, instance:project.ExtentReportClass@4d50efb8]" name="TestCase9" duration-ms="86" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase9 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase9 status=SUCCESS method=Exp1.TestCase9()[pri:9, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase10()[pri:10, instance:project.ExtentReportClass@4d50efb8]" name="TestCase10" duration-ms="108" started-at="2019-02-27T16:35:09Z" finished-at="2019-02-27T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase10 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase10 status=SUCCESS method=Exp1.TestCase10()[pri:10, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase11()[pri:11, instance:project.ExtentReportClass@4d50efb8]" name="TestCase11" duration-ms="94" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase11 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase11 status=SUCCESS method=Exp1.TestCase11()[pri:11, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase12()[pri:12, instance:project.ExtentReportClass@4d50efb8]" name="TestCase12" duration-ms="97" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase12 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase12 status=SUCCESS method=Exp1.TestCase12()[pri:12, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase13()[pri:13, instance:project.ExtentReportClass@4d50efb8]" name="TestCase13" duration-ms="96" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase13 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase13 status=SUCCESS method=Exp1.TestCase13()[pri:13, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TestCase14()[pri:14, instance:project.ExtentReportClass@4d50efb8]" name="TestCase14" duration-ms="82" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase14 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase14 status=SUCCESS method=Exp1.TestCase14()[pri:14, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="TestCase15()[pri:15, instance:project.ExtentReportClass@4d50efb8]" name="TestCase15" duration-ms="9053" started-at="2019-02-27T16:35:10Z" finished-at="2019-02-27T16:35:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Corporate Training> but was:<Tutorials>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Corporate Training> but was:<Tutorials>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at project.Exp1.TestCase15(Exp1.java:373)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase15 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-27T16:35:19Z" finished-at="2019-02-27T16:35:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase15 status=FAILURE method=Exp1.TestCase15()[pri:15, instance:project.ExtentReportClass@4d50efb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="endReport()[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="endReport" is-config="true" duration-ms="338" started-at="2019-02-27T16:35:19Z" finished-at="2019-02-27T16:35:19Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/bson/types/ObjectId]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/bson/types/ObjectId
+at java.lang.Class.getDeclaredMethods0(Native Method)
+at java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+at java.lang.Class.privateGetPublicMethods(Unknown Source)
+at java.lang.Class.getMethods(Unknown Source)
+at freemarker.ext.beans.ClassIntrospector.discoverAccessibleMethods(ClassIntrospector.java:464)
+at freemarker.ext.beans.ClassIntrospector.discoverAccessibleMethods(ClassIntrospector.java:457)
+at freemarker.ext.beans.ClassIntrospector.createClassIntrospectionData(ClassIntrospector.java:268)
+at freemarker.ext.beans.ClassIntrospector.get(ClassIntrospector.java:244)
+at freemarker.ext.beans.BeanModel.<init>(BeanModel.java:114)
+at freemarker.ext.beans.BeanModel.<init>(BeanModel.java:104)
+at freemarker.ext.beans.StringModel.<init>(StringModel.java:52)
+at freemarker.ext.beans.StringModel$1.create(StringModel.java:37)
+at freemarker.ext.beans.BeansModelCache.create(BeansModelCache.java:71)
+at freemarker.ext.util.ModelCache.getInstance(ModelCache.java:84)
+at freemarker.ext.beans.BeansWrapper.wrap(BeansWrapper.java:860)
+at freemarker.template.DefaultObjectWrapper.handleUnknownType(DefaultObjectWrapper.java:235)
+at freemarker.template.DefaultObjectWrapper.wrap(DefaultObjectWrapper.java:214)
+at freemarker.template.WrappingTemplateModel.wrap(WrappingTemplateModel.java:105)
+at freemarker.template.DefaultListAdapter.get(DefaultListAdapter.java:75)
+at freemarker.core.DynamicKeyName.dealWithNumericalKey(DynamicKeyName.java:104)
+at freemarker.core.DynamicKeyName._eval(DynamicKeyName.java:69)
+at freemarker.core.Expression.eval(Expression.java:78)
+at freemarker.core.Assignment.accept(Assignment.java:131)
+at freemarker.core.Environment.visit(Environment.java:324)
+at freemarker.core.MixedContent.accept(MixedContent.java:54)
+at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+at freemarker.core.ConditionalBlock.accept(ConditionalBlock.java:48)
+at freemarker.core.Environment.visit(Environment.java:324)
+at freemarker.core.MixedContent.accept(MixedContent.java:54)
+at freemarker.core.Environment.visit(Environment.java:324)
+at freemarker.core.Environment.process(Environment.java:302)
+at freemarker.template.Template.process(Template.java:325)
+at com.aventstack.extentreports.reporter.ExtentHtmlReporter.flush(ExtentHtmlReporter.java:145)
+at java.util.ArrayList.forEach(Unknown Source)
+at com.aventstack.extentreports.Report.notifyReporters(Report.java:210)
+at com.aventstack.extentreports.Report.flush(Report.java:132)
+at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:261)
+at project.ExtentReportClass.endReport(ExtentReportClass.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.bson.types.ObjectId
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 62 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:project.ExtentReportClass@4d50efb8]" name="teardown" is-config="true" duration-ms="0" started-at="2019-02-27T16:35:19Z" finished-at="2019-02-27T16:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- project.ExtentReportClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
